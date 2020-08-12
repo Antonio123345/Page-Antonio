@@ -1,0 +1,64 @@
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    padding: 100px 0;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.Sobre_mi {
+    background-color: #F1F1F1;
+}
+
+.Biografia h1, p{
+    text-align: start;
+}
+
+.Sobre_mi img{
+    border-radius: 1000px;
+    width: 400px;
+}
+
+.Portafolio {
+    background-color: #4A4A4A;
+    color: #F1F1F1;
+}
+
+footer {
+    background-color: #F1F1F1;
+}
+
+.Sobre_mi .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// colors
+
