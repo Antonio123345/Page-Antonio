@@ -1,25 +1,27 @@
 
+
+
 h1 {
     text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    
 }
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #707070;
+}
+
 
 .content {
     padding: 100px 0;
-    max-width: 1500px;
+    width: 75%;
     margin: auto;
-}
-
-.Sobre_mi {
-    background-color: #F1F1F1;
-}
-
-.Biografia h1, p{
-    text-align: start;
-}
-
-.Sobre_mi img{
-    border-radius: 1000px;
-    width: 400px;
 }
 
 .Portafolio {
@@ -31,34 +33,39 @@ footer {
     background-color: #F1F1F1;
 }
 
+/* Sobre mi */
+
+.Sobre_mi {
+    background-color: #F1F1F1;
+}
+
 .Sobre_mi .content{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+
+}
+
+.perfil_picture {
+    display: flex;
+    width: 50%;
+    justify-content: start;
+}
+
+.Biografia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.Sobre_mi img{
+    border-radius: 1000px;
+    width: 580px;
+}
+
+.Biografia h1, p{
+    text-align: start;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// colors
 
