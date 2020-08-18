@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main article {
+    padding: 10rem 0px;
+}
+
+.flex-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-container-1 div {
+    width: 40%;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}

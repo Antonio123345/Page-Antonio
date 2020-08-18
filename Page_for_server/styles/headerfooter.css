@@ -1,0 +1,74 @@
+/* Header */
+
+
+header h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 8rem;
+}
+
+header {
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Titulo */
+
+.maleta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maleta h1{
+    width: 50%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#M {
+    font-weight: 500;
+}
+
+#A {
+    font-weight: 300;
+
+}
+
+.title p {
+    margin: 0px;
+    color: #4A4A4A;
+    font-size: 4rem;
+}
+
+.line {
+    margin-top: 3rem;
+    border: #8a8a8a solid 0.2px;
+    width: 30%;
+}
+
+/* Links */
+
+.nav-links {
+    display: flex;
+    margin: 1rem auto;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links p, li{
+    font-size: 3rem;
+    list-style: none;
+}
+
+nav {
+    width: 100%;
+}

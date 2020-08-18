@@ -1,37 +1,14 @@
 
 
-
-h1 {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: normal;
-    font-size: 70px;
-    margin: 0;
-    padding: 0;
-    
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: #707070;
-}
-
-
-.content {
-    padding: 100px 0;
-    width: 75%;
-    margin: auto;
-}
-
 .Portafolio {
     background-color: #4A4A4A;
     color: #F1F1F1;
 }
 
 footer {
-    background-color: #F1F1F1;
+    background-color: #F1F1F1
 }
+
 
 /* Sobre mi */
 
@@ -39,23 +16,9 @@ footer {
     background-color: #F1F1F1;
 }
 
-.Sobre_mi .content{
-    display: flex;
-    align-items: center;
 
-}
-
-.perfil_picture {
-    display: flex;
-    width: 50%;
-    justify-content: start;
-}
-
-.Biografia {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 50%;
+.perfil_picture img {
+    max-width: 100%;
 }
 
 .Sobre_mi img{
@@ -68,19 +31,113 @@ footer {
 }
 
 /* Lo que hacemos */
-.rectangs {
-    display: flex;
-    justify-content: space-between;
+.Que_hacemos {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.Que_hacemos h1 {
+    margin: 0px 0px 1em 0px;
 }
 
 .Rectangulo {
     display: flex;
-    background-color: teal;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0px 0px 0px;
+    margin: 0px;
+}
+
+.txt p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 15px 0px;
+}
+
+/* Portafolio */
 
 
+.Album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    width: 100%;
+}
+
+.Album img {
+    margin: 1em;
+}
+
+.Album button {
+    width: 50rem;
+    height: 10rem;
+    font-size: 5rem;
+}
+
+/* CONTACTO */
+
+.Contactame {
+    background-color: #15D1CD;
+}
+
+.Contactame button {
+    font-size: 4rem;
+    padding: 0 2rem;
+}
+
+.Contenedor-2 {
+    width: 50%;
+    margin: auto;
+}
+
+.form-group *{
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 1000px) {
+    .flex-container-1 {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 1rem;
+    }
+
+    .title * {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .flex-container-1 div{
+        width: 70%;
+    }
+
+    .title p {
+        font-size: 2.5rem;
+    }
+
+    header {
+        margin-top: 5rem;
+    }
+
+    header h1 {
+        font-size: 5rem;
+    }
+}   

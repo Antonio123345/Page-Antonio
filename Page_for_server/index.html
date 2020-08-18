@@ -3,26 +3,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MaletaAudiovisual</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="styles/headerfooter.css" rel="stylesheet">
+    <link href="styles/flex.css" rel="stylesheet">
     <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/general.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+    
 </head>
 <body>
-    <header class="content">
-        <h1>MaletaAudiovisual</h1>
-        <nav></nav>
+    <header>
+        <div class="title">
+            <div class="maleta">
+                <h1 id="M">MALETA </h1>
+                <h1 id="A"> audiovisual</h1>
+            </div>
+            <p>
+            Crea e inspira
+            </p>
+        </div>
+        <div class="line"></div>
+        <nav>
+            <ul class="nav-links">
+                <li><p>Home<p></li>
+                <li><p>Sobre mi</p></li>
+                <li><p>Lo que hacemos</p></li>
+                <li><p>Portafolio</p></li>
+                <li><p>Contacto</p></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <div class="Imagenes">
     
         </div>
-        <div class="Sobre_mi">
-            <div class="content flex-container-1">
+        <article class="Sobre_mi flex-container-1">
                 <div class="perfil_picture">
                     <img src="media/perfil.jpg" alt="">
                 </div>
 
-                <div class="Biografia">
+                <div class="Biografia flex-container-2">
                     <h1>Sobre mi</h1>
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -32,55 +54,90 @@
                         reprehenderit in voluptate velit esse cillum dolore eu
                         fugiat nulla pariatur. Excepteur sint occaecat cupidatat </p>
                 </div>
-            </div>
-        </div>
-        <div class="Que_hacemos?">
-            <div class="content">
-                <h1>Que hacemos?</h1>
-                <div class="rectangs">
+        </article>
+        <article class="Que_hacemos flex-container-2">
+                <h1>Lo que hacemos</h1>
+                <div class="rectangs flex-container-1">
                     <div class="Rectangulo">
                         <img src="media/download.jpeg" alt="">
-                        <p>Fotografia</p>
-                        <p>Lo hacemos bien</p>
+                        <div class="txt">
+                            <p class="subtitile">Fotografia</p>
+                            <p>Lo hacemos bien</p>
+                        </div>
                     </div>
                     <div class="Rectangulo">
                         <img src="media/download.jpeg" alt="">
-                        <p>Fotografia</p>
-                        <p>Lo hacemos bien</p>
+                        <div class="txt">
+                            <p class="subtitile">Fotografia</p>
+                            <p>Lo hacemos bien</p>
+                        </div>
                     </div>
                     <div class="Rectangulo">
                         <img src="media/download.jpeg" alt="">
-                        <p>Fotografia</p>
-                        <p>Lo hacemos bien</p>
+                        <div class="txt">
+                            <p class="subtitile">Fotografia</p>
+                            <p>Lo hacemos bien</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="Portafolio">
-            <div class="content">
+        </article>
+        <article class="Portafolio">
                 <h1>PORTAFOLIO</h1>
                 <div class="Album">
-                    <div class="Rectangulos">
-        
+                    <div class="flex-container-2">
+                        <div class="flex-container-1">
+                            <img src="media/download.jpeg" alt="">
+                            <img src="media/download.jpeg" alt="">
+                            <img src="media/download.jpeg" alt="">
+                        </div>
+                        <div class="flex-container-1">
+                            <img src="media/download.jpeg" alt=""> 
+                            <img src="media/download.jpeg" alt=""> 
+                            <img src="media/download.jpeg" alt=""> 
+                        </div>
+                        <div class="flex-container-1">
+                            <img src="media/download.jpeg" alt="">
+                            <img src="media/download.jpeg" alt=""> 
+                            <img src="media/download.jpeg" alt=""> 
+                        </div>
                     </div>
-                    <input type="button">
+                    <button type="button" class="btn btn-primary">Mostrar mas</button>
+            </div>
+        </article>
+        <article class="Contactame">
+            <h1>Contactame</h1>
+            <div class="Contenedor-2">
+            <form>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div> 
+                
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Nombre Cliente</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Asunto</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
                 </div>
                 
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Comentarios</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class>
+                <button class="btn btn-primary">Submit</button>
+            </form>
             </div>
-        </div>
-        <div class="Contactame">
-            <div class="content">
-                <h2>CONTACTO</h2>
-                <input type="text">
-            </div>
-        </div>
+        </article>
     </main>
     <footer>
-        <div class="content">
-            <div class="Redes"></div>
-            <div class="Copyright"></div>
-            <div class="Desarrolador"></div>
-        </div>
+        <h1>FOOTER</h1>
+        <div class="Redes"></div>
+        <div class="Copyright"></div>
+        <div class="Desarrolador"></div>
     </footer>
     
 </body>
