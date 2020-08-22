@@ -77,7 +77,6 @@ nav {
 
 
 footer .width75 {
-    border: 1px black solid;
     margin: auto;
     padding: 10rem 0;
     display: flex;
@@ -103,7 +102,6 @@ footer .width75 p {
 }
 
 .img_container {
-    border: red solid 1px;
     width: 16em;
 }
 
