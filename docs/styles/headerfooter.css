@@ -8,11 +8,15 @@ header h1 {
 
 header {
     display: flex;
-    margin-top: 10rem;
     margin-bottom: 4rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+header img {
+	margin: 0;
+	width: 30%;
 }
 
 /* Titulo */
@@ -22,35 +26,8 @@ header {
     justify-content: space-between;
 }
 
-.maleta h1{
-    width: 50%;
-}
-
-.title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#M {
-    font-weight: 500;
-}
-
-#A {
-    font-weight: 300;
-
-}
-
-.title p {
-    margin: 0px;
-    color: #4A4A4A;
-    font-size: 4rem;
-}
-
 .line {
-    margin-top: 3rem;
-    border: #8a8a8a solid 0.2px;
+    border: black solid 0.2px;
     width: 75%;
 }
 
@@ -65,8 +42,9 @@ header {
 }
 
 .nav-links p, li{
-    font-size: 3rem;
+    font-size: 2.7rem;
     list-style: none;
+    color: #464646;
 }
 
 nav {

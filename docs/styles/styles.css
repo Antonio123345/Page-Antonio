@@ -10,20 +10,15 @@ footer {
 
 .Sobre_mi p {
     margin: 2.5rem 0;
+    width: 60%;
+    text-align: left;
+    color: #505050;
 }
 
-.Sobre_mi
+.Sobre_mi .line {
+	margin-top: 5rem;
 
-
-.perfil_picture img {
-    max-width: 100%;
 }
-
-.Sobre_mi img{
-    width: 380px;
-    margin: 6rem auto;
-}
-
 
 /* Lo que hacemos */
 .Que_hacemos {
