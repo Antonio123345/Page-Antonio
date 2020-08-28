@@ -142,4 +142,19 @@ footer {
     .Contactame .wraper {
         width: 80%;
     }
+
+    /* Tarjetas */
+
+    .Tarjets {
+        width: 95%;
+    }
+
+    .Tarjets .Tarjeta {
+        padding: 2rem;
+    }
+
+    .Tarjets .Tar-1 {
+        margin-bottom: 3rem;
+    }
+
 }   
