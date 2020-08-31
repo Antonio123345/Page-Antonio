@@ -40,3 +40,8 @@ p {
     font-style: italic;
     color: #8b8b8b;
 }
+
+.white1 {
+    width: 100%;
+    height: 40vh;
+}
