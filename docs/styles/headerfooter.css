@@ -14,11 +14,21 @@ header {
     justify-content: center;
 }
 
-header img {
-	margin: 0;
-	width: 30%;
+header .back {
+    background-color: #f2f2f2 ;
+    width: 100%;
+    margin-bottom: 5rem;
 }
 
+.img-cont-4 {
+    margin: 6rem auto;
+    width: 20%;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+}
 /* Titulo */
 
 .maleta {

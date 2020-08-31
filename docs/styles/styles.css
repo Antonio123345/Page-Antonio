@@ -21,27 +21,45 @@ footer {
 }
 
 /* Lo que hacemos */
+
+.img-cont-5 {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    clip-path: inset(0% 0% 25% 0%);
+}
+
+.img-cont-5 img {
+    bottom: 0;
+    width: 100% ;
+}
+
+
 .Que_hacemos {
     width: 100%;
     margin: 0px auto;
-    background-color: #75BACB;
+    margin-top: 50rem;
 }
 
 .rectangs {
+    position: relative;
+    z-index: 2;
     width: 100%;
 }
 
 .Que_hacemos h1 {
+    z-index: 2;
+    width: 80%;
+    padding-top: 4rem;
+    border-top: 2px white solid;
+    font-size: 13rem;
     margin: 0px 0px 1em 0px;
-}
-
-.Que_hacemos h1 {
+    font-family: 'Changa One', cursive;
     color: white;
 }
 
 .Que_hacemos p{
     margin-top: 5rem;
-    color: white;
 }
 
 .Rectangulo {
@@ -57,25 +75,10 @@ footer {
 /* Portafolio */
 
 
-.Album {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5em;
-    width: 100%;
+.Portafolio .Insta{
+    width: 25%;
+    margin: auto;
 }
-
-.Album img {
-    margin: 1em;
-}
-
-.Album button {
-    width: 50rem;
-    height: 10rem;
-    font-size: 5rem;
-}
-
-
 
 @media (max-width: 1000px) {
     .flex-container-1 {

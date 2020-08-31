@@ -8,9 +8,6 @@
 
 /* Tarjetas Nosotros */
 
-.Tarjets p, h1 {
-    color: white;
-}
 .Tarjets {
     width: 90%;
     margin-top: 8rem;
@@ -18,8 +15,10 @@
 }
 
 .Tarjets h1 {
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 12em;
+    font-family: 'Changa One', cursive;
+    font-size: 10em;
+    color: white;
+    text-transform: uppercase;
 }
 
 .Tarjeta {
@@ -28,9 +27,14 @@
     padding: 5rem;
 }
 .Text-2 p {
+    color: white;
     font-size: 1em;
     text-align: right;
     width: 100%;
+}
+
+#text {
+    color: black;
 }
 
 .Text-2 {
@@ -100,12 +104,12 @@
 /* Personalizadas */
 
 .Tar-1 {
-    background-color: #36464C;
+    background-color: #b4c5ca; 
     margin-bottom: 8rem;
 
 }
 
 .Tar-2 {
-    background-color: #BEB6A9;
+    background-color: #c8c1b6;
 }
 
