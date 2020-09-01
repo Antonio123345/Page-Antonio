@@ -9,7 +9,7 @@
 /* Tarjetas Nosotros */
 
 .Tarjets {
-    width: 90%;
+    width: 100%;
     margin-top: 8rem;
     display: flex;
 }
@@ -19,6 +19,10 @@
     font-size: 10em;
     color: white;
     text-transform: uppercase;
+}
+
+.Tarjets .Tar-2 h1 {
+    text-align: right;
 }
 
 .Tarjeta {
