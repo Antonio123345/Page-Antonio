@@ -112,3 +112,23 @@
     background-color: #c8c1b6;
 }
 
+/* Lines */
+.Tarjeta .wrapper {
+    position: relative;
+}
+
+.Tarjeta svg {
+    position: absolute;
+    width: 100%;
+    stroke: white;
+    stroke-width: 5px;
+}
+
+.Tar-1 .wrapper svg {
+    width: 73vw;
+    bottom: 80;
+}
+
+.Tar-2 .wrapper svg {
+    bottom: -20;
+}
