@@ -103,13 +103,13 @@
 /* Personalizadas */
 
 .Tar-1 {
-    background-color: #b4c5ca; 
+    background-color: #BFBFBF; 
     margin-bottom: 8rem;
 
 }
 
 .Tar-2 {
-    background-color: #c8c1b6;
+    background-color: #001521;
 }
 
 /* Lines */
@@ -118,6 +118,7 @@
 }
 
 .Tarjeta svg {
+    display: none;
     position: absolute;
     width: 100%;
     stroke: white;
