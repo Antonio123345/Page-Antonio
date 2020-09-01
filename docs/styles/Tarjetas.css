@@ -14,15 +14,8 @@
     display: flex;
 }
 
-.Tarjets h1 {
-    font-family: 'Changa One', cursive;
-    font-size: 10em;
-    color: white;
-    text-transform: uppercase;
-}
-
-.Tarjets .Tar-2 h1 {
-    text-align: right;
+.Tarjeta .Let {
+    width: 25vw;
 }
 
 .Tarjeta {
@@ -61,11 +54,12 @@
     align-self: center;
 }
 
-.Tar-1 .wrapper h1 {
+
+.Tar-1 .wrapper #a {
+    align-self: flex-start;
     margin: 0;
     grid-column: 1/2;
     grid-row: 1/2;
-    text-align: start;
 }
 
 .Tar-1 .Text-2 {
@@ -74,7 +68,7 @@
     margin-right: 2em;
 }
 
-.Tar-1 .wrapper img{
+.Tar-1 .wrapper #b{
     grid-column: 4/3;
     grid-row: 1/3;
     justify-self: flex-end;
@@ -94,15 +88,16 @@
     grid-template-columns: 30em 1fr 1fr;
 }
 
-.Tar-2 .wrapper img {
+.Tar-2 .wrapper #b {
     grid-column: 1/2;
     grid-row: 1/3;
 }
 
-.Tar-2 h1 {
+.Tar-2 #a {
     grid-row: 2/3;
     grid-column: 3/4;
     align-self: flex-end;
+    justify-self: flex-end;
 }
 
 /* Personalizadas */
