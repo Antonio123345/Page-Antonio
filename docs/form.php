@@ -8,9 +8,9 @@ if (isset($_POST["submit"])) {
     $Correo = $_POST["Email"];
     $Mensaje = $_POST["Coment"];
 
-    $Destino = "";
+    $Destino = "helopython123@gmail.com";
     $Asunto = "Te ha llegado un correo de tu pagina! de parte de:".$Name;
     $txt = $Mensaje.".\n\n El correo del remitente es:".$Correo;
-    mail($Correo,$Asunto,$txt,$Correo);
+    mail($Destino,$Asunto,$txt,$Correo);
     header("Location: index.php?mailsend")
 }
