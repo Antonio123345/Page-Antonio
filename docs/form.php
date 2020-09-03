@@ -12,5 +12,5 @@ if (isset($_POST["submit"])) {
     $Asunto = "Te ha llegado un correo de tu pagina! de parte de:".$Name;
     $txt = $Mensaje.".\n\n El correo del remitente es:".$Correo;
     mail($Destino,$Asunto,$txt,$Correo);
-    header("Location: index.php?mailsend")
+    header("Location: index.php?mailsend");
 }
