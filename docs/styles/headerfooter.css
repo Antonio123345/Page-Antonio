@@ -87,6 +87,10 @@ footer .width75 p {
 
 }
 
+footer a {
+    font-size: 2rem;
+}
+
 .Redes {
     display: flex;
     justify-content: space-around;

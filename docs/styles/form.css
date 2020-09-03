@@ -28,6 +28,16 @@
     margin: 6rem 0;
 }
 
+.input-form input {
+    font-size: 2.5rem;
+}
+
+.input-form textarea {
+    font-size: 1.5rem;
+    color: grey;
+    padding: 1rem 1rem;
+}
+
 .first {
     margin-top: 0;
 }
@@ -62,12 +72,8 @@
 
 /* Imagenes */
 
-.w-100 {
-    width: 100%;
-}
 
-.imagenes {
-    width: 100%;
+.Imagenes {
+    width: 95%;
     align-self: center;
 }
-
