@@ -1,5 +1,5 @@
 .Contactame {
-    background-color: #D3D3D3;
+    background-color: #6BA2AF;
 }
 
 .Contactame h2 {
@@ -8,24 +8,25 @@
 }
 
 .wraper {
-    width: 40%;
+    border: 5px solid white;
+    width: 33%;
     margin: auto;
     padding: 15rem 3rem 3rem;
-    background-color: #F1F1F1;
     margin-bottom: 0;
 }
 
 .inputs-group input{
+    color: white;
     width: 100%;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #707070;
+    border-bottom: 1px solid white;
     margin-top: 6rem;
     outline: none;
 }
 
 .input-form {
-    margin: 6rem 0;
+    margin: 1rem 0;
 }
 
 .input-form input {
@@ -39,7 +40,7 @@
 }
 
 .first {
-    margin-top: 0;
+    margin-top: -3rem
 }
 
 .last {
@@ -49,11 +50,12 @@
 .input-form p {
     text-align: start;
     margin: 0;
+    color: white;
 }
 
 .input-area textarea {
     width: 100%;
-    height: 35rem;
+    height: 20rem;
     margin: 0;
     margin-top: 3rem;
     outline: none;
@@ -61,13 +63,13 @@
 
 .wraper button {
     background-color: transparent;
-    color: #919191;
+    color: white;
     align-self: center;
     font-size: 2rem;
     font-family: 'Quicksand', serif;
     margin-top: 2rem;
     padding: 0.3rem 2rem;
-    border: 1px solid #919191;
+    border: 1px solid white;
 }
 
 /* Imagenes */

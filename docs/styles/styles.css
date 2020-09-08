@@ -43,7 +43,6 @@ footer {
     font-size: 6rem;
     padding-bottom: 0.2em;
     margin: 0px 0px 1em 0px;
-    font-family: 'Changa One', cursive;
     color: white;
 }
 
@@ -115,6 +114,7 @@ footer {
         margin-top: 5rem;
     }
 
+
     footer div {
         font-size: 0.5rem;
     }
@@ -148,16 +148,9 @@ footer {
 
     /* Tarjetas */
 
-    .Tarjets {
-        width: 95%;
-    }
-
     .Tarjets .Tarjeta {
         padding: 2rem;
     }
 
-    .Tarjets .Tar-1 {
-        margin-bottom: 3rem;
-    }
 
 }   

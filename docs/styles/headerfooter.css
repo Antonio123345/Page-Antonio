@@ -19,11 +19,13 @@ header .back {
     background-color: #f2f2f2 ;
     width: 100%;
     margin-bottom: 5rem;
+    padding: 2rem 0;
 }
 
 .img-cont-4 {
-    margin: 3rem auto;
-    width: 12%;
+    margin: -4.5rem auto;
+    width: 45%;
+
 }
 
 header img {
@@ -47,7 +49,7 @@ header img {
 .nav-links {
     display: flex;
     margin: 1rem auto;
-    width: 50%;
+    width: 40%;
     justify-content: space-around;
     align-items: center;
 }
@@ -55,7 +57,7 @@ header img {
 .nav-links a, li{
     text-align: center;
     font-family: 'Quicksand', serif;
-    font-size: 2.7rem;
+    font-size: 2rem;
     list-style: none;
     color: #464646;
 }
@@ -104,3 +106,6 @@ footer a {
     width: 100%;
     height: auto;
 }
+
+/* Video */
+

@@ -103,33 +103,31 @@
 /* Personalizadas */
 
 .Tar-1 {
-    background-color: #BFBFBF; 
-    margin-bottom: 8rem;
-
+    background-color: #A0C7CE; 
 }
 
 .Tar-2 {
-    background-color: #001521;
-}
+    background-color: #1D7286;}
 
 /* Lines */
-.Tarjeta .wrapper {
-    position: relative;
-}
 
 .Tarjeta svg {
-    display: none;
-    position: absolute;
     width: 100%;
-    stroke: white;
-    stroke-width: 5px;
 }
 
-.Tar-1 .wrapper svg {
-    width: 73vw;
-    bottom: 80;
+
+ /* Sub-Tarjetas */
+
+
+.sub-tarjetas .flex-container-2 {
+    margin: 15rem 0;
 }
 
-.Tar-2 .wrapper svg {
-    bottom: -20;
+.sub-tarjetas .flex-container-2 p  {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+.sub-tarjetas img {
+    width: 50vw;
 }
