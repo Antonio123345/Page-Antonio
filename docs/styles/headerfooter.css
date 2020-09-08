@@ -108,4 +108,7 @@ footer a {
 }
 
 /* Video */
-
+video {
+    width: 100%;
+    height: auto;
+}
