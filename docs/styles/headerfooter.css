@@ -109,3 +109,11 @@ footer a {
 
 /* Video */
 
+video {
+    width: 70%;
+    height: auto;
+}
+.video {
+    display: flex;
+    justify-content: center;
+}

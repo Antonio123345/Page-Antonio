@@ -9,10 +9,9 @@
 
 .wraper {
     border: 5px solid white;
-    width: 33%;
+    width: 25%;
     margin: auto;
-    padding: 15rem 3rem 3rem;
-    margin-bottom: 0;
+    padding: 5rem 3rem;
 }
 
 .inputs-group input{
@@ -21,7 +20,7 @@
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
-    margin-top: 6rem;
+    margin-top: 2rem;
     outline: none;
 }
 
