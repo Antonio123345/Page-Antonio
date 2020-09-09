@@ -151,6 +151,9 @@ footer {
     .Tarjets .Tarjeta {
         padding: 2rem;
     }
+    .video {
+	    margin: -10rem 0;
+    }
 
 
 }   
